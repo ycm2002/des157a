@@ -30,3 +30,11 @@ p{
 h2, h3{
     color: rgb(167, 98, 9);    
 }
+img {
+    display:block;
+    margin: auto;
+}
+figcaption{
+    text-align: center;
+    padding-top: 20px;
+}
