@@ -1,0 +1,83 @@
+main{
+    background-color: #E1AFD1;
+    padding-bottom: 30px;
+    padding-top: px;
+}
+
+header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #AD88C6;
+    font-family: "Oleo Script", system-ui;
+    font-size: 30px;
+    padding: 1px;
+}
+
+#madlib{
+    background-color:#FFE6E6;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    line-height: 35px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 450px;
+      
+}
+
+input[type="text"]:focus {
+    border:1px solid #D6D9DC;
+    outline: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input:hover{
+    border:1px solid #D6D9DC;
+    outline: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img{
+    margin: auto;
+    text-align: center;  
+}
+
+.money{
+    transition-duration: .5s;
+
+}
+.money:hover{
+    transform: scale(.7);
+}
+
+@media only screen and (min-width: 700px) {
+    
+    .main{
+        display: flex;
+        gap: 5px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+       }
+
+
+    .main article {
+        border-radius: 10px;
+        margin:auto;
+        margin-top: 15px;
+        margin-bottom: 80px;
+        text-align: left;
+    }
+
+    #madlib{
+        width: 500px;
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 60px;
+        background-color: #FFE6E6;
+    }
+
+}
