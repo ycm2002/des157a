@@ -1,0 +1,32 @@
+h1{
+    font-family: 'Great Vibes', cursive;
+    padding-left: 400px;
+    font-size: 50px ;
+
+}
+
+header{
+    background-color: burlywood;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main{
+    margin: auto;
+}
+
+article{
+    width: 600px;
+    padding:20px;
+    margin:auto;
+}
+
+p{
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(167, 98, 9);    
+}
