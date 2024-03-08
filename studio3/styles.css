@@ -1,0 +1,242 @@
+
+main{
+    height: 700px;
+    background-color: rgb(244, 224, 190);
+
+}
+header{
+    margin: auto;
+    text-align: center;
+    background-color: #81141b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+}
+
+img {
+    margin: auto;
+    text-align: center;
+}
+
+h3{
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+    color: #333;
+    line-height: 1.5em;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+h2{
+    color: black;
+}
+
+#overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+#overlay article {
+    box-sizing: border-box;
+    background-color:#ffffff;
+    padding: 20px;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    text-align: center;
+}
+
+#overlay article p {
+    text-align: left;
+}
+
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+}
+
+#gamecontrol, #score {
+    background-color: rgb(244, 224, 190);
+}
+
+#gamecontrol {
+    margin: auto;
+    text-align: center;
+}
+
+#game {
+    background-color:rgb(244, 224, 190);
+    margin: auto;
+    text-align: center;
+}
+
+#actions {
+    background-color: rgb(244, 224, 190);
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    padding-top: 30px;
+}
+
+#score{
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 850px) {
+    main{
+        height: 700px;
+        background-color: rgb(244, 224, 190);
+
+    }
+    header{
+        margin: auto;
+        text-align: center;
+        background-color: #81141b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    h1{
+        font-size: 70px;
+        color: white;
+        font-family: "Oleo Script", system-ui;
+        font-weight: 400;
+    }
+    
+    img {
+        margin: auto;
+        text-align: center;
+    }
+
+    h3{
+        margin: auto;
+        text-align: center;
+    }
+
+    body {
+        font-family: Arial;
+        color: #333;
+        line-height: 1.5em;
+    }
+    
+    .showing {
+        visibility: visible;
+        opacity: 1;}
+    
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    h2{
+        color: black;
+    }
+    
+    #overlay {
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transition-property: opacity, visibility;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+    }
+ 
+    
+    #overlay article {
+        box-sizing: border-box;
+        background-color:#ffffff;
+        padding: 20px;
+        width: 80vw;
+        height: 80vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    p{
+        text-align: center;
+    }
+
+    #overlay article p {
+        text-align: left;
+    }
+
+    button { 
+        padding: 10px;
+    }
+
+    div {
+        padding: 20px;
+    }
+    
+    #gamecontrol, #score {
+        background-color: rgb(244, 224, 190);
+    }
+
+    #gamecontrol {
+        margin: auto;
+        text-align: center;
+    }
+    
+    #game {
+        background-color:rgb(244, 224, 190);
+        margin: auto;
+        text-align: center;
+    }
+
+    #actions {
+        background-color: rgb(244, 224, 190);
+        margin: auto;
+        text-align: center;
+    }
+    
+    img{
+        padding-top: 30px;
+    }
+
+    #score{
+        margin: auto;
+        text-align: center;
+    }
+}
