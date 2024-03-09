@@ -1,6 +1,6 @@
 
 main{
-    height: 700px;
+    height: 650px;
     background-color: rgb(244, 224, 190);
 
 }
@@ -10,6 +10,23 @@ header{
     background-color: #81141b;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    background-color: #81141b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+#sources{
+    color:black
 }
 
 h1{
@@ -121,7 +138,7 @@ img{
 
 @media only screen and (min-width: 850px) {
     main{
-        height: 700px;
+        height: 610px;
         background-color: rgb(244, 224, 190);
 
     }

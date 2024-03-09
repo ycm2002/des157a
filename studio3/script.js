@@ -8,6 +8,8 @@
     document.querySelector('.close').addEventListener('click', function(event){
         event.preventDefault();
         document.querySelector('#overlay').className="hidden";
+        const playSound = new Audio('sounds/play.mp3');
+            playSound.play();
     })
     
     document.addEventListener('keydown', function(event){
@@ -22,6 +24,13 @@
     const game = document.querySelector('#game');
     const score = document.querySelector('#score');
     const actionArea = document.querySelector('#actions');
+    
+    //SOUNDS
+    const clickSound = new Audio('sounds/click.mp3');
+    const clickBtn = document.getElementById('startgame')
+    clickBtn.addEventListener('mousedown', function () {
+        clickSound.play();
+    });
 
     //GAME IMAGES AND DATA
     const gameData = {
@@ -47,6 +56,8 @@
 
         document.getElementById('quit').addEventListener("click",function(){
             location.reload();
+            const playSound = new Audio('sounds/play.mp3');
+            playSound.play();
         });
 
         //SET UP TURN AND THROWING DICE 
@@ -55,6 +66,10 @@
             actionArea.innerHTML ='<button id="roll">Roll the Ball</button>';
             document.getElementById('roll').addEventListener('click',function(){
                 
+                //SOUND
+                const clickSound = new Audio('sounds/click.mp3');
+                clickSound.play();
+
                 function throwDice(){
                     actionArea.innerHTML = '';
                     gameData.roll1 = Math.floor(Math.random() * 6) + 1;
@@ -87,10 +102,14 @@
 
                         document.getElementById('rollagain').addEventListener('click', function(){
                             setUpTurn();
+                            const clickSound = new Audio('sounds/click.mp3');
+                            clickSound.play();
                         });
                         document.getElementById('pass').addEventListener('click',function (){
                             gameData.index ? (gameData.index = 0) : (gameData.index = 1);
                             setUpTurn();
+                            const playSound = new Audio('sounds/play.mp3');
+                            playSound.play();
                         });
                         //check winning condition
                         checkWinningCondition();
@@ -107,10 +126,12 @@
                 function checkWinningCondition(){
                     if(gameData.score[gameData.index] > gameData.gameEnd){
                         score.innerHTML = `<h2>${gameData.players[gameData.index]}
-                        wins with ${gameData.score[gameData.index]} points!</h2>`;
-
+                        wins with ${gameData.score[gameData.index]} points!</h2><br><button id='playagain'></button>`;
                         actionArea.innerHTML='';
-                        document.getElementById('quit').innerHTML="Start a New Game?";
+                        document.getElementById('playagain').innerHTML="Start a New Game?";
+                        document.getElementById('playagain').addEventListener("click",function(){
+                            location.reload();
+                        });
                     }
                     else{
                         //show current score
