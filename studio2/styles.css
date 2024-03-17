@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(206, 245, 216);
+}    
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    color: #333;
+    /* background-color: rgb(206, 245, 216); */
+}
+
+main {
+    width: 30vw;
+    padding: 20px;
+}
+
+section {
+    height: 60vh;
+}
+
+p {
+    line-height: 1.75em;
+}
+
+h1{
+    font-family: "Oleo Script", system-ui;
+    color: rgb(21, 95, 39);
+}
+
+figure {
+    display: block;
+    margin: 0;
+    width: 70vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right:0;
+    overflow: hidden;
+}
+
+figure img {
+    position: absolute;
+    transition: all 3s ease;
+}
+
+.sect1{
+    width: 133vh; /*147% the height of the image is the width ratio*/
+    top:0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.sect2,
+.sect3,
+.sect4,
+.sect5{
+    /* width: 3768px; */
+    width: 2300px;
+}
+
+
+.sect2 {
+    top: 0;
+    left: 0;
+}
+
+.sect3 {
+    top: 0;
+    /* left: calc(-3768px + 70vw); */
+    left: calc(-2200px + 70vw);
+
+}
+
+.sect4 {
+    /* top: calc(-2567px + 100vh); */
+    top: calc(-1725px + 100vh);
+    left: 0;
+}
+
+.sect5 {
+    top: calc(-1725px + 100vh);
+    left: calc(-2200px + 70vw);
+}
+
+
+#second article h1{
+    color:rgb(209, 31, 105);
+}
+
+#third article h1{
+    color:rgb(184, 142, 15);
+}
+
+#fourth article h1{
+    color:rgb(92, 22, 89);
+}
+
+#fifth article h1{
+    color:rgb(154, 50, 39);
+}
+
+article{
+    background-color: white;
+    padding: 8px;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+#sixth article{
+    padding: 0%;
+}
