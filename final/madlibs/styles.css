@@ -14,7 +14,7 @@ header {
 }
 
 #header:hover{
-    scale: 1.5;
+    transform: scale(1.5);
     color: #23a512;
 
 }
@@ -49,7 +49,6 @@ header {
     width: 300px;
     border-radius: 10px;
     border: 5px;
-    float: center;
     text-align: left;
     border-radius: 0;
 }
@@ -181,7 +180,7 @@ input{
     }
     
     #header:hover{
-        scale: 2;
+        transform:scale(2);
         color: #23a512;
     
     }
@@ -216,7 +215,6 @@ input{
         width: 600px;
         border-radius: 10px;
         border: 5px;
-        float: center;
         text-align: left;
         border-radius: 0;
     }
