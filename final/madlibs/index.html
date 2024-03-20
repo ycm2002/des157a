@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Varela&display=swap" rel="stylesheet">
+
+   
+
+<!--Normalize CSS to standardize browsers -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+<!-- My Styles load LAST-->
+<link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+<body id="body">
+    <header>
+         <h1 id="header">Mad Libs</h1>
+    </header>
+    <main>
+        <div class="main">
+            <article id="madlib">
+                <h2>Fill in the blanks!</h2>
+                <form id="myform">
+        
+                    <label for="animal1">Choose an animal</label>
+                    <select id="animal1">
+                        <option value="">  Select an animal  </option>
+                        <option value="red panda">Red Panda</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select> <br>
+        
+                    <label for="verb1">Provide a verb</label>
+                    <input type="text" id="verb1" required> <br>
+        
+                    <label for="noun1">Provide a noun (place)</label>
+                    <input type="text" id="noun1" required> <br>
+        
+                    <label for="adverb1">Provide an adverb</label>
+                    <input type="text" id="adverb1" required> <br>
+        
+                    <label for="number1">Provide a number</label>
+                    <input type="text" id="number1" required> <br>
+        
+                    <label for="time1">Provide a unit of time</label>
+                    <input type="text" id="time1" required> <br>
+        
+                    <label for="adj2">Provide an adjective</label>
+                    <input type="text" id="adj2" required> <br>
+        
+                    <label for="number2">Provide another number</label>
+                    <input type="text" id="number2" required> <br>
+
+                    <label for="time2">Provide another unit of time</label>
+                    <input type="text" id="time2" required> <br>
+
+                    <input type="submit" value="Generate Mad Libs!">
+                </form>
+            </article>
+        </div>
+    </main>
+</body>
+</html>

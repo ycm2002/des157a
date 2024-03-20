@@ -1,0 +1,334 @@
+header {
+    background-color: rgba(2, 48, 2, 0.15);
+    color:#e4f1e3;
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Koulen", sans-serif;
+    font-size: 45px;
+    padding: 1px;
+    background-image: url(images/background.jpg);
+}
+
+#header{
+    transition-duration: .75s;
+}
+
+#header:hover{
+    scale: 1.5;
+    color: #23a512;
+
+}
+
+
+#madlib{
+    background-color:#c1d6be;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#submitted{
+    background-color:#fdfdfd;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 450px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px;
+    float: center;
+    text-align: left;
+    border-radius: 0;
+}
+
+#new{
+    background-image: url(images/moneybag.png)
+}
+
+
+#submitted .button{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: #0c4f03;
+    border-radius: 10px;
+    border: 2px solid  black;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.button:hover{
+    padding: 10px;
+    background-color: #96ba91;
+    border-radius: 10px;
+    border: 2px solid  black;
+    text-decoration: none;
+    color: #0c4f03;
+}
+
+#submitted h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#submitted, #story{
+    margin:auto;
+    margin-top: 30px;
+    width: 450px;
+    height: 800px;
+}
+
+#submitted, #story, img{
+    margin:auto;
+    width: 450px;
+}
+
+#submitted p{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    padding: 13px;
+    color: rgb(252, 252, 252);
+    background-color: rgb(39, 0, 124);
+}
+
+input[type="text"]:focus {
+    border:none ;
+    border-bottom: 2px solid rgb(39, 0, 124);
+    outline: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    line-height: 1.5em;
+}
+
+input:hover{
+    outline: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgb(2, 30, 2);
+    background-color: #e4f1e3;
+    margin-left: 2px;
+    margin-right: 2px;
+ 
+}
+
+input,select{
+    border: none;
+    border-bottom: 1px solid rgb(2, 30, 2);
+    background-color: #e4f1e3;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5px;
+}
+
+input,label, select{
+    display: block;
+}
+
+input{
+    margin-bottom: .3em;
+}
+
+
+
+@media only screen and (min-width: 750px) {
+
+
+    #submitted, #story, img{
+        margin:auto;
+        width: 700px;
+    }
+
+    body {
+        background-image: url(images/background.jpg);
+    }
+    
+    
+    header {
+        background-color: rgba(2, 48, 2, 0.15);
+        color:#e4f1e3;
+        margin-top: 0px;
+        text-align: center;
+        font-family: "Koulen", sans-serif;
+        font-size: 45px;
+        padding: 1px;
+    }
+    
+    #header{
+        transition-duration: .75s;
+    }
+    
+    #header:hover{
+        scale: 2;
+        color: #23a512;
+    
+    }
+    
+    
+    #madlib{
+        background-color:#c1d6be;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 60px;
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 400px;
+        margin-top: 35px;
+        overflow-y: auto;
+    }
+    
+    #submitted{
+        background-color:#fdfdfd;
+        color: black;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 450px;
+        margin-top: 55px;
+        width: 600px;
+        border-radius: 10px;
+        border: 5px;
+        float: center;
+        text-align: left;
+        border-radius: 0;
+    }
+    
+    #new{
+        background-image: url(images/moneybag.png)
+    }
+    
+    #submitted .button{
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+        background-color: #0c4f03;
+        border-radius: 10px;
+        border: 2px solid  black;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .button:hover{
+        padding: 10px;
+        background-color: #96ba91;
+        border-radius: 10px;
+        border: 2px solid  black;
+        text-decoration: none;
+        color: #0c4f03;
+    }
+    
+    #submitted h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    #submitted, #story{
+        margin:auto;
+        margin-top: 30px;
+        width: 700px;
+        height: 775px;
+    }
+    
+    #submitted p{
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    input[type="submit"]{
+        margin-top: 30px;
+        padding: 13px;
+        color: rgb(252, 252, 252);
+        background-color: rgb(39, 0, 124);
+    }
+    
+    input[type="text"]:focus {
+        border:none ;
+        border-bottom: 2px solid rgb(39, 0, 124);
+        outline: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    p{
+        line-height: 1.5em;
+    }
+    
+    input:hover{
+        outline: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    input[type="text"] {
+        border: none;
+        border-bottom: 1px solid rgb(2, 30, 2);
+        background-color: #e4f1e3;
+        margin-left: 2px;
+        margin-right: 2px;
+     
+    }
+    
+    input,select{
+        border: none;
+        border-bottom: 1px solid rgb(2, 30, 2);
+        background-color: #e4f1e3;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-left: 5px;
+    }
+    
+    input,label, select{
+        display: block;
+    }
+    
+    input{
+        margin-bottom: .3em;
+    }
+
+    .main article {
+        border-radius: 10px;
+        margin:auto;
+        margin-top: 15px;
+        margin-bottom: 80px;
+        text-align: left;
+    }
+
+    #madlib{
+        width: 400px;
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-right: 35px;
+        padding-bottom: 70px;
+        overflow-y: auto;
+        float: right;
+        margin-right: 70px;
+    }
+
+}
